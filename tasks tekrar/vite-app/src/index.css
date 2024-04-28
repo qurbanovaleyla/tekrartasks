@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  background-color: skyblue;
+  padding: 20px;
+}
+a{
+  text-decoration: none;
+}
+ul li{
+  list-style: none;
+}
+
+.list{
+  display: flex;
+  gap: 20px;
+}
+ul li :hover{
+color: white;
+transition: 500ms;
+}
+.main-first{
+  width: 80%;
+  padding: 90px;
+  gap: 30px;
+  margin: 90px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.main-first p{
+font-size: 19px;
+}
+.card{
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: relative;
+}
+.allCards{
+  
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 3em; 
+  margin: 50px 150px ;
+
+}
+i{
+  position: absolute;
+  margin-bottom: 194px;
+ 
+width: 50px;
+padding: 18px;
+
+background-color: rgb(21, 115, 253);
+border-radius: 5px;
+}
