@@ -2,7 +2,13 @@ import React from 'react'
 import { MdDelete } from "react-icons/md";
 import { FaEdit } from "react-icons/fa";
 
-function Todo({todo}) {
+function Todo({todo , onRemoveTodo}) {
+const {id,content}=todo
+
+const removeTodo=()=>{
+    onRemoveTodo(id)
+}
+
     return (
         <div className='paragraph-icons'>
             
@@ -10,7 +16,7 @@ function Todo({todo}) {
             {todo.content}
             </div>
             <div className='icons'>
-            <MdDelete className='todo-icons' />
+            <MdDelete className='todo-icons' onClick={removeTodo} />
             <FaEdit className='todo-icons' />
             </div>
            
