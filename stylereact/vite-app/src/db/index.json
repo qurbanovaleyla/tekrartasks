@@ -1,0 +1,53 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "imgSrc": "https://preview.colorlib.com/theme/abcbook/assets/img/gallery/best_selling7.jpg",
+        "title": "Moon Dance",
+        "author": "J. R Rain",
+        "price": 50,
+        "genre": "Classic"
+      },
+      {
+        "id": 2,
+        "imgSrc": "https://preview.colorlib.com/theme/abcbook/assets/img/gallery/best_selling8.jpg",
+        "title": "Moon Dance",
+        "author": "J. R Rain",
+        "price": 50,
+        "genre": "Drama"
+      },
+      {
+        "id": 3,
+        "imgSrc": "https://preview.colorlib.com/theme/abcbook/assets/img/gallery/best_selling6.jpg",
+        "title": "Moon Dance",
+        "author": "J. R Rain",
+        "price": 50,
+        "genre": "Dystopian"
+      },
+      {
+        "id": 4,
+        "imgSrc": "https://preview.colorlib.com/theme/abcbook/assets/img/gallery/best_selling4.jpg",
+        "title": "Moon Dance",
+        "author": "J. R Rain",
+        "price": 50,
+        "genre": "Drama"
+      },
+      {
+        "id": 5,
+        "imgSrc": "https://preview.colorlib.com/theme/abcbook/assets/img/gallery/best_selling9.jpg",
+        "title": "Moon Dance",
+        "author": "J. R Rain",
+        "price": 50,
+        "genre": "Drama"
+      },
+      {
+        "id": 2,
+        "imgSrc": "https://preview.colorlib.com/theme/abcbook/assets/img/gallery/best_selling2.jpg",
+        "title": "Moon Dance",
+        "author": "J. R Rain",
+        "price": 50,
+        "genre": "Drama"
+      }
+    ]
+  }
+  
